@@ -1,0 +1,18 @@
+.galleryList {
+  display: flex;
+  flex-wrap: wrap;
+/* gap: 12px; */
+justify-content:space-between;
+padding-left: 0;
+}
+
+.imageCard {
+  flex-basis: calc(25% - 10px); /* Кожен елемент займає 25% від ширини контейнера */
+  margin: 5px; /* Відступ між зображеннями */
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
