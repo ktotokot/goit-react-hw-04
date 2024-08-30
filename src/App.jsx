@@ -53,11 +53,13 @@ const App = () => {
   const onLoadMore = () => {
     setPage((prevPage) => prevPage + 1);
   };
+
   const openModal = (modalUrl, modalAlt) => {
     setShowModal(true);
     setModalUrl(modalUrl);
     setModalAlt(modalAlt);
   };
+  
   const closeModal = () => {
     setShowModal(false);
     setModalUrl("");

@@ -1,7 +1,7 @@
 .searchBarHeader {
   display: flex;
   justify-content: center;
-  background-color:rgb(155, 47, 167, 0.9);
+  background-color: rgb(155, 47, 167, 0.9);
   padding: 10px 0;
 }
 
